@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content"width=device-width, initial-scale="1.0" />
+    
+    <title>Formulario HTML</title>
+</head>
+<body>
+    <div>
+       <h1>Formulario de inscrição em evento</h1>
+        <br />
+    </div>
+
+    <form action="" method="get">
+        <fieldset>
+            <label>Nome completo</label>
+            <input type="text" name="Nome-completo" placeholder="Informe seu Nome Completo" size="30" id="nome-Completo"
+            <div>
+
+            </div>
+
+            <div>
+                <label>Email</label>
+                <input type="email" name="email" placeholder="Informe seu Email" size="30" id="email"
+            </div>
+
+            <div>
+                <label>Sexo</label>
+                <label>
+                    <input type="radio" name="Masculino" value="masculino" />masculino,
+                </label>
+                <label>
+                    <input type="radio" name="Feminino" value="Feminino" />Feminino
+                </label>
+
+            </div>
+            <label>Cargo</label>
+            <input type="text" name="Cargo" placeholder="Informe seu cargo" id="Cargo"
+            </div>
+
+            <div>
+                <label>Data de Nascimento</label>
+                <input type="text" name="data de Nascimento" placeholder="dd/mm/aa" size="30" id="Data de Nascimento"
+            </div>
+
+            <div>
+                <label>Telefone</label>
+                <input type="text" name="Telefone" placeholder="Informe seu Telefone" size="30" id="Telefone"
+            </div>
+        </fieldset>
+        <h1>Informações da instituição</h1>
+        <p>Prencha os campos abaixo com as informações da impresa em que trabalha</p>
+        <div>
+            <fieldset>
+                <label>Empresa</label>
+                <input type="text" name="Empresa" placeholder="Informe a empresa que trabalhou" size="30" id="Empresa"
+        </div>
+
+        <div>
+            <label>Endereço completo</label>
+            <input type="text" name="Endereço completo" placeholder="Informe seu endereço completo" size="30" id="Endereço completo"
+        </div>
+
+        <div>
+            <label>Cidade</label>
+            <input type="text" name="Cidade" placeholder="Informe sua cidade" size="30" id="Cidade"
+        </div>
+
+        <legend>estado</legend>
+        <select name="Estado">
+            <option selected disabled>Selecione</option>
+            <option value="AM">Amazonas</option>
+            <option value="RO">Rondonia</option>
+            <option value="PR">Parana</option>
+            <option value="AP">Amapa</option>
+        </select>
+
+        <div>
+            <label>Quantidade de funcionarios</label>
+            <input type="text" name="Quantidade de funcionarios" placeholder="Informe a quantidade de funcionarios" size="30" id="Cidade"
+        </div>
+
+        <div>
+            <textarea>Observações:</textarea>
+        </div>
+        </fieldset>
+        <div>
+            <input type="submit" value="enviar inscrição"> &nbsp; &nbsp;
+        </div>
+        <div>
+        <label>Recibo:</label>
+        <label>
+            <input type="radio" name="Emitir em nome da instituição" value="emitir em nome da instituição" />emitir em nome da instituição
+        </label>
+        </div>
+    </form>
+</body>
+</html>

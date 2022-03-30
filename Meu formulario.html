@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula formulario</title>
+</head>
+<body>
+    <h1>Meu formulario</h1>
+    <form action="" method="get">
+    </form>
+    <input type="text" Name="Nome Completo" placeholder="" size="30" maxlenght="13">
+    <br> </br>
+    <label for="senha">senha:</label>
+    <input type="passoword" name="senha" placeholder="Informe Sua senha">
+    <label>
+        Brasileiro Nato<input type="checkbox">
+    </label>
+    <fieldset>
+        <legend>Sexo</legend>
+        <label for="masc">Masculino</label>
+        <input type="radio" name="sexo" value="m" id="masc">
+        <label for="fem">Feminino</label>
+        <input type="radio" name="sexo" value="F" id="Fem">
+        <input type="email" name="Digite seu email " value="" id=""/>
+    </fieldset>
+    <br>
+    <label for="mensagem">Olá amigos</label>
+    <br>
+    <textarea id="Mensagem" name="mensagem" rows="20" cols="20" placeholder="Sua mensagem aqui...">
+        
+        </textarea>
+    <fieldset>
+        <legend>estado</legend>
+        <select name="Estado">
+            <option selected disabled>Selecione</option>
+            <option value="AM">Amazonas</option>
+            <option value="RO">Rondonia</option>
+            <option value="PR">Parana</option>
+            <option value="AP">Amapa</option>
+        </select>
+
+
+
+    </fieldset>
+    <input type="submit" value="enviar"> &nbsp; &nbsp;
+    <input type="reset" value="limpar">
+
+
+    </form>
+
+</body>
+
+</html>
